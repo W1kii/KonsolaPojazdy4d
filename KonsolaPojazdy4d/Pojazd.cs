@@ -10,7 +10,7 @@ namespace KonsolaPojazdy4d
     {
 
         protected string marka;
-        protected ushort rokProdukcji;
+        protected UInt16 rokProdukcji;
 
         public Pojazd(string marka, ushort rokProdukcji)
         { 
@@ -22,7 +22,7 @@ namespace KonsolaPojazdy4d
 
         public virtual string Opis() 
         {
-            return $"Marka: {this.marka}, Rok produkcji: {this.rokProdukcji}";
+            return $"Marka: {this.marka}, rok produkcji: {this.rokProdukcji}";
         }
     }
 }
