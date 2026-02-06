@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KonsolaPojazdy4d
 {
-    internal class Motocykl : Pojazd
+    public class Motocykl : Pojazd
     {
 
         private bool czyZabytkowy;

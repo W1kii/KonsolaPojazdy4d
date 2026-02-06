@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KonsolaPojazdy4d
 {
-    internal abstract class Pojazd
+    public abstract class Pojazd
     {
 
         protected string marka;

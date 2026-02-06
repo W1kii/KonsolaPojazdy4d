@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KonsolaPojazdy4d
 {
-    internal class Samochod : Pojazd
+    public class Samochod : Pojazd
     {
 
         private int liczbaDrzwi;
