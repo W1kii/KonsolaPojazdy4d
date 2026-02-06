@@ -15,6 +15,10 @@ namespace KonsolaPojazdy4d
         {
             this.liczbaDrzwi = liczbaDrzwi;
         }
+        public Samochod(Samochod auto) : base(auto.marka, auto.rokProdukcji)
+        {
+            this.liczbaDrzwi = auto.liczbaDrzwi;
+        }
 
         public override double ObliczKosztWynajmu(int dni)
         {
